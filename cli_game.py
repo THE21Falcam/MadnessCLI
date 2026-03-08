@@ -12,7 +12,7 @@ Text_Display = [
     ["Type 'start' to Start the Game & 'q' to Quit the Game"]
 ]
 
-Username = "Barny"
+Username = ""
 
 Loot_Table = {
     1:[], # [name, droprate, Rarity, metrics, discription]
