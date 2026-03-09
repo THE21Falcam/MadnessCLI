@@ -2,6 +2,11 @@
 
 An offline CLI version of [Dungeon Madness](https://github.com/THE21Falcam/Dungeon-Madness) - a text-based adventure game built in Python.
 
+## Features
+- Custom Character Creation
+- Turn Based Combat System
+- Save/Load Game Progress
+
 ## Installation
 
 ### Requirements
