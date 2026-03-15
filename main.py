@@ -24,43 +24,41 @@ User_Stats = {
     "ATK"
 }
 
-def Save_Game():    
-    pass
+if __name__ == "__main__":
 
-while(Playing):
+    while(Playing):
 
-    subprocess.run('clear')
+        subprocess.run('clear')
 
-    print("")
-    print("Welcome to Dungeon Madness CLI")
-    print("Type 'h' for Help in Command Line ")
-    print("")
+        print("")
+        print("Welcome to Dungeon Madness CLI")
+        print("Type 'h' for Help in Command Line ")
+        print("")
 
-    for items in Text_Display:
-        print("    " + items[0])
+        for items in Text_Display:
+            print("    " + items[0])
     
-    print("")
+        print("")
     
-    # Command Help
+        # Command Help
     
-    CommandInput = input(f"{Command_Text} > ")
+        CommandInput = input(f"{Command_Text} > ")
     
-    if CommandInput == "h":
+        if CommandInput == "h":
 
-        Text_Display = [
+            Text_Display = [
             
-            ["'q' for Quitting the Game"],
-            ["'start' for Starting the Game"]
+                ["'q' for Quitting the Game"],
+                ["'start' for Starting the Game"]
         
-        ]
+            ]
     
-    elif CommandInput == "start":
+        elif CommandInput == "start":
     
-        pass
+            pass
     
-    elif CommandInput == "q":
+        elif CommandInput == "q":
         
-        playing = False
-        break    
+            Playing = False
 
 subprocess.run('clear')
