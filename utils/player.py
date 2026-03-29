@@ -15,7 +15,7 @@ class Player_Data:
         self.LUK = 4
         
         self.ATK_SPEED = 4
-    
+
     def show_inventory(self):
         
         pass
