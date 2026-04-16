@@ -13,6 +13,7 @@ Text_Display = [["Type 'start' to Start the Game & 'q' to Quit the Game."]]
 
 if __name__ == "__main__":
     while Playing:
+        window_size = os.get_terminal_size()
         if sys.platform == "linux":
             subprocess.run("clear")
         elif sys.platform == "win32":
